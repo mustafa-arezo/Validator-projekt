@@ -1,0 +1,132 @@
+li{
+    list-style: none;
+
+  }
+
+
+
+
+/* Ändrar bodys background och font */
+body{
+background-color: #f5d9df;
+font-family: "Nunito", sans-serif;
+}
+/* Storleken på navbarens text samt tjockleken */
+
+.blurb h2 {
+color:#EA1C2C;
+font-weight:100;
+font-size: 2.5rem;
+}
+
+.blurb p {
+color:#f498b8;
+font-weight: 100;
+font-size:1.125rem;
+line-height:2;
+} 
+
+.content{
+margin-top:100px;
+margin-bottom: 100px;
+}
+
+#mainNavbar{
+font-size: 1.5rem;
+font-weight: 100;
+}
+/* Länkarna är vita */
+#mainNavbar .nav-link{
+color:white
+}
+/* Hover röd när du håller musen över */
+#mainNavbar .nav-link:hover{
+color:#EA1C2C;
+}
+/* Själva text färgen på CANDY är röd */
+#mainNavbar .navbar-brand{
+color: #EA1C2C;
+}   
+
+/* Span som är / i headingGroup blir röd */
+#headingGroup span{
+color:#EA1C2C
+}
+/* Storlek på H1 "MUSEUM */
+#headingGroup h1{
+font-weight:100;
+font-size: 4rem;
+}
+
+.navbar.scrolled {
+background:rgb(222,192,222);
+transition: background 1s;
+}
+
+footer{
+border: 2px solid black;
+
+
+}
+
+.paj p{
+display: inline-block;
+}
+
+#headingGroup p{
+display: inline-block;
+}
+
+
+#main-contact-form{
+margin: 200px;
+
+}
+
+.bottom-left {
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+
+.fas{
+    color:orange;
+    font-size: 50px;
+    padding-left:10%;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* Mindre än 1200px blir texten mindre  */
+@media(max-width: 1200px){
+#headingGroup h1{
+    font-weight:100;
+    font-size: 3rem;
+
+}
+}
+/* 
+@media(max-width: 600px){
+#cont{
+
+    background-color: red;
+    font-weight:50 ;
+    font-size: 3rem;
+
+}
+} */
+/* 
+@media(max-width: 600px) {
+    #colt{
+    
+      width: 100 ;
+      margin: 50px;
+      padding: 50px;
+    }
+  } */

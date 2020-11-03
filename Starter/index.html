@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- HTML -->
+  <!-- <link rel="stylesheet" href="startsida.html"> -->
+  <!-- CSS -->
+  <script src="https://kit.fontawesome.com/9bb0d4be1f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="app.css">
+
+
+  <title>Mini_plockmat</title>
+</head>
+
+<body>
+  <!-- Skapar en navbar som är responsive MD, padding top och bottom är borta och är fixed
+   -->
+  <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md py-0 fixed-top">
+    <a href="index.html" class="navbar-brand">Mini-plockmat</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">HEM</a>
+        </li>
+        <li class="nav-item">
+          <a href="kontaktsida.html" class="nav-link">KONTAKT</a>
+        </li>
+        <li class="nav-item">
+          <a href="galleri.html" class="nav-link">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a href="om.html" class="nav-link">OM</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <!-- Använder en container och fluid för det ska ta hela platsen för det ska vara horisontellt,
+använder row och centererar 2 divar som är 6 units var.
+Med img-fluid blir bilden responsive.
+Med align-items-center får vi containt centralt
+col-lg-6 menas att vid large ska den använda 6 unit
+d-none menas att texten ska döljas och med d-lg-block menas att den visas endast vid large o efter
+ -->
+  <!-- <!-- <section class="container-fluid px-0"> -->
+  <main>
+    <section class=" container-fluid ">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+            <h1 class="display-2">MINI<span>_</span>PLOCKMAT</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe nulla voluptas facilis,
+              accusamus
+              ex debitis. Laborum porro perspiciatis vero molestias. Eius id rem cumque, expedita repellat
+              fugiat pariatur
+              possimus.lorem
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae maxime non esse doloribus
+              incidunt
+              mollitia labore fuga voluptatibus eligendi omnis! Id, eveniet ex. Sunt, dolore exercitationem!
+              Eos soluta
+              necessitatibus facilis.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="imgs/kiwi.jpg" alt="bild på kiwi">
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Använder en container-fluid för det ska ta hela platsen till kanterna 
+  padding-x=0, använder row och centererar 2 divar som är 6 units var
+  Med align-items-center får vi containd centralt
+  col-lg-6 menas att vid large ska den använda 6 unit och order-md-1 ska byta plats vid MD
+  med justify-content-center får vi center horisentellt
+  .-->
+  <!-- <section class="container-fluid px-0"> -->
+  <article class="container-fluid px-0">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1 ">
+        <img src="imgs/paj.jpg" alt="bild på paj" class="img-fluid">
+      </div>
+      <div class="col-md-6 order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mg-md-0">
+            <i class="fas fa-carrot"></i>
+            <h2> Mini pajer</h2>
+            <!-- <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline"> -->
+            <p class="lead">🍂12 st små pajer
+              <li>🔸250 g köttfärs</li>
+              <li> 🔸Ett paket pajdeg</li>
+              <li> 🔸1 salladslök</li>
+              <li> 🔸1/2 halv paprika</li>
+              <li> 🔸2 stora champinjoner</li>
+              <li> 🔸2 dl creme fraiche</li>
+              <li> 🔸Salt, peppar, vegata, paprikapulver, vitlökspulver</li>
+              <li> 🔸Riven ost</li>
+              <li>🔸 Körsbärstomater</li>
+              <br>
+              <br>
+              <li> 🔸Sätt ugnen på 200 grader.</li>
+              <li>🔸Fräs lök och köttfärs.</li>
+              <li>🔸Dela grönsakerna i små bitar och blanda ner med köttfärsen.</li>
+              <li> 🔸Krydda och rör ner créme Fraiche.</li>
+              <li> 🔸 Tryck ut degen med hjälp av ett glas och lägg i formar eller i en muffinsplåt.</li>
+              <li> 🔸Lägg i 1-2 msk färsbladning i varje form.</li>
+              <li> 🔸Toppa med riven ost och skivade körsbärstomater.</li>
+              <li>🔸Grädda i ugnen i 20 min.</li>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 ">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mg-md-0">
+            <h2> Bananbröd</h2>
+            <img src="imgs/lolli_icon.png" alt="en icon bild på en klubba" class="d-none d-lg-inline">
+            <p class="lead">
+              <li>🔸2 mogna bananer.</li>
+              <li>🔸2 ägg</li>
+              <li>🔸5 msk smält smör</li>
+              <li>🔸1/2 dl mjölk</li>
+              <li>🔸1 dl socker</li>
+              <li>🔸4 dl vetemjöl</li>
+              <li>🔸1 tsk bakpulver</li>
+              <li>🔸1/4 tsk salt</li>
+              <li>🔸1 tsk vaniljpulver</li>
+              <li>Creme cheese</li>
+              <li>🔸1 paket cream cheese (150g)</li>
+              <li>🔸1 Ägg</li>
+              <li>🔸2 msk socker</li>
+              <li>🔸2 msk vetemjöl</li>
+              <br>
+              <br>
+              <li>🔸Sätt ugnen på 180 grader.</li>
+              <li>🔸Mosa bananen och blanda med smör, ägg och mjölk.</li>
+              <li>🔸Blanda mjöl, socker, bakpulver, vanilj och salt.</li>
+              <li>🔸 Blanda ihop allt till en smet.</li>
+              <li>🔸Rör ihop creamcheese blandningen och vispa i någon minut så den blir slät och krämig.
+              </li>
+              <li>🔸Lägg ett bakplåtspapper i en brödform och varva banansmeten med cream cheese
+                blandningen.</li>
+              <li>🔸 Grädda i mitten av ugnen i ca 50 minuter.</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="imgs/bananbröd.jpg" alt="bild på bananbröd" class="img-fluid">
+      </div>
+    </div>
+  </article>
+
+
+
+  <!-- extra bild
+             <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1 ">
+        <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mg-md-0">
+            <h2> MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, quo at natus ullam
+              corrupti expedita? Laudantium exercitationem neque porro, tempore quisquam
+              repellendus ullam ad vero voluptas
+              perspiciatis enim earum necessitatibus!</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- </section> -->
+
+  <!-- 
+        annan footer 
+        <footer> 
+    <div class="card text-center .d-flex">
+      <!-- <div class="card-header"> 
+        Featured
+      </div>-->
+  <!--  
+      <div class="card-body p-0">
+        <a href="https://www.instagram.com/mini_plockmat/">Instagram</a>
+        <h5 class="card-title">Telefon: 073 610 12 32</h5>
+        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+  <!-- </div> 
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+  </footer>-->
+
+
+  <footer>
+    <div class="row text-center pa">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <a href="https://www.instagram.com/mini_plockmat/">Instagram</a>
+            <p class="card-text">Telefon: 073 610 12 32</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+<!-- <script> 
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      })
+    })
+  </script>
+  -->
+
+</html>
